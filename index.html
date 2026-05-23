@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main-box">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+
+      <div class="title">
+        TASK LIST
+      </div>
+
+      <div class="text">
+        Add tasks to your list by typing to the right and pressing enter.
+        You may then view pending tasks below.
+      </div>
+
+      <div id="taskList">
+
+        <div class="task-row">
+
+          <div class="task-name">
+            First Task
+          </div>
+
+          <div class="actions">
+            <input type="checkbox" class="check">
+
+            <div class="delete">
+              &times;
+            </div>
+          </div>
+
+        </div>
+
+        <div class="task-row">
+
+          <div class="task-name">
+            Second Task
+          </div>
+
+          <div class="actions">
+            <input type="checkbox" class="check">
+
+            <div class="delete">
+              &times;
+            </div>
+          </div>
+
+        </div>
+
+        <div class="task-row">
+
+          <div class="task-name">
+            Third Task
+          </div>
+
+          <div class="actions">
+            <input type="checkbox" class="check">
+
+            <div class="delete">
+              &times;
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+
+      <form id="taskForm">
+
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="I need to..."
+          required
+        >
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
